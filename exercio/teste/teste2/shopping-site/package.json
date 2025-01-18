@@ -1,0 +1,16 @@
+{
+  "name": "shopping-site",
+  "version": "1.0.0",
+  "description": "Um site de compras básico.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'Build script not defined'"
+  },
+  "author": "Seu Nome",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
