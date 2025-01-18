@@ -1,0 +1,115 @@
+@charset "UTF-8"
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+    
+
+
+body {
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+body p {
+    color: rgba(0, 0, 0, 0.877);
+    padding: 10px;
+    margin: auto;
+    
+}
+
+header {
+    background-color: rgb(207, 207, 207);
+    color: white;
+    text-align: center;
+    display: block;
+    unicode-bidi: isolate;
+}
+header > p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    padding-bottom: 50px;
+}
+
+
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: 'Sriracha', cursive;
+    font-size: 3.5vw;
+}
+section > p {
+    padding-bottom: 2em;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+#imagem01 {
+    background-image: url(imagens/background001.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+main .imagem {
+    color: white;
+    background-color: darkgray;
+    box-shadow: 6px 6px 13px 0px rgba(0, 0, 0, 0.543);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#imagem02 {
+    background-image: url(imagens/background002.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+main .imagem {
+    color: white;
+    background-color: darkgray;
+    box-shadow: 6px 6px 13px 0px rgba(0, 0, 0, 0.543);
+}
+section.imagem > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.311);
+    text-shadow: 1px 1px 0px black;
+    background-size: cover;
+    background-attachment: fixed;
+}
+footer {
+    background-color: rgba(0, 0, 0, 0.87);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 1em;
+    padding: 10px;
+}
+
