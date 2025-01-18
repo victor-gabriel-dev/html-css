@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(131, 131, 131);
+            margin:0px;
+        }
+        header {
+            background-color: rgb(255, 254, 254);
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 5px 4px 2px 1px rgba(0, 0, 0, 0.336);
+        }
+
+        nav {
+            background-color: rgba(160, 160, 160, 0.61);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.63);
+        }
+
+        nav > a {
+            text-decoration: underline;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.507);
+        }
+
+        article {
+            background-color: rgb(102, 102, 102);
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(255, 255, 255);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 0px;
+            margin: 0px;
+        }
+        #footer {
+            margin: 0px;
+        }
+        /* cria uma bola no site 
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+            */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Politica Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <aside>
+                    <h2>noticias sobre o brasil</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium blanditiis et dolor dolores facere delectus possimus, deserunt rerum error culpa, ab est nihil fuga praesentium impedit numquam. Id, earum hic! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi sunt laudantium unde ea, velit nemo consectetur expedita, accusamus inventore aspernatur, voluptate cumque odit ad eum eos perferendis voluptatum earum assumenda! Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit assumenda nam voluptatem delectus sunt, libero, laborum deserunt rerum fuga veritatis beatae est itaque ex perferendis hic sapiente facere culpa nostrum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis saepe minus excepturi odit magnam asperiores doloremque, adipisci repudiandae ab. Tempora quis accusantium, nam voluptas facilis facere doloribus repudiandae sed distinctio! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus maiores sit quos quidem possimus deserunt, qui dolor quisquam sed omnis laboriosam nisi delectus ab vero hic ex voluptas molestiae et? Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis illo maxime fugiat, corporis assumenda itaque pariatur, dignissimos, ea quis accusantium laboriosam. Et fugiat officiis inventore expedita, voluptatibus vel maxime id? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio reprehenderit ipsam, recusandae maxime, est soluta mollitia voluptatum minima inventore, veritatis tempora officiis non dolores tempore doloribus iusto earum sunt praesentium. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis officiis, accusamus reprehenderit recusandae quisquam quod sapiente labore ex voluptatem facere ab, quasi tenetur quidem et odio iure sunt obcaecati ipsam? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur rem a cupiditate id facere modi, placeat consequatur facilis omnis, optio sit vel ducimus reiciendis quam voluptates corrupti itaque laboriosam amet.</p>
+                    <p>artigo escrito por jose da silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>desenvolvido pelo victorgabriel</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
